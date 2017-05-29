@@ -1,0 +1,133 @@
+; -- Created with ISN Form Studio 2 for ISN AutoIt Studio -- ;
+#include <StaticConstants.au3>
+#include <GUIConstantsEx.au3>
+#include <WindowsConstants.au3>
+#Include <GuiButton.au3>
+
+$GUI = GUICreate("GUI",350,191,-1,-1,-1,-1)
+$run = GUICtrlCreateButton("Ausführen",126,100,100,30,-1,-1)
+GUICtrlCreateLabel("Dieses Script wird eine Firewall-Ausnahme für den Tanki Online Client erstellen. Dadurch werden die Datenpakete schneller übertragen werden und das Spielerlebnis wird durch verkürzte Ladezeiten verbessert.",20,20,316,53,-1,-1)
+GUICtrlSetBkColor(-1,"-2")
+$liget = GUICtrlCreateLabel("Open Source Software"&@crlf&"GNU General Public License v3",14,150,320,24,$SS_CENTER,-1)
+GUICtrlSetBkColor(-1,"-2")
+
+
+
+#cs
+[gui]
+Handle_deklaration=default
+Handle_deklaration_const=default
+title=GUI
+breite=350
+hoehe=191
+style=-1
+exstyle=-1
+bgcolour=0xF0F0F0
+bgimage=none
+handle=GUI
+parent=
+code=
+codebeforegui=
+xpos=-1
+ypos=-1
+center_gui=true
+title_textmode=normal
+isf_include_once=false
+only_controls_in_isf=false
+const_modus=default
+gui_event_close=
+gui_event_minimize=
+gui_event_restore=
+gui_event_maximize=
+gui_event_mousemove=
+gui_event_primarydown=
+gui_event_primaryup=
+gui_event_secoundarydown=
+gui_event_secoundaryup=
+gui_event_resized=
+gui_event_dropped=
+[0x00091C66]
+handle=406
+locked=0
+resize=
+code=
+type=button
+x=126
+y=100
+width=100
+height=30
+text=Ausführen
+tooltip=
+state=$GUI_SHOW+$GUI_ENABLE
+style=
+exstyle=
+textcolour=0x000000
+bgcolour=
+font=MS Sans Serif
+fontsize=8
+fontstyle=400
+fontattribute=0
+id=run
+func=
+bgimage=
+order=0
+tabpage=-1
+iconindex=
+textmode=text
+[0x00031C6A]
+handle=407
+locked=0
+resize=
+code=
+type=label
+x=20
+y=20
+width=316
+height=53
+text=Dieses Script wird eine Firewall-Ausnahme für den Tanki Online Client erstellen. Dadurch werden die Datenpakete schneller übertragen werden und das Spielerlebnis wird durch verkürzte Ladezeiten verbessert.
+tooltip=
+state=$GUI_SHOW+$GUI_ENABLE
+style=
+exstyle=
+textcolour=0x000000
+bgcolour=-2
+font=MS Sans Serif
+fontsize=8
+fontstyle=400
+fontattribute=0
+id=
+func=
+bgimage=
+order=2
+tabpage=-1
+iconindex=
+textmode=text
+[0x000A2540]
+handle=408
+locked=0
+resize=
+code=
+type=label
+x=14
+y=150
+width=320
+height=24
+text=Open Source Software[BREAK]GNU General Public License v3
+tooltip=
+state=$GUI_SHOW+$GUI_ENABLE
+style=$SS_CENTER
+exstyle=
+textcolour=0x000000
+bgcolour=-2
+font=MS Sans Serif
+fontsize=8
+fontstyle=400
+fontattribute=0
+id=liget
+func=
+bgimage=
+order=3
+tabpage=-1
+iconindex=
+textmode=text
+#ce
